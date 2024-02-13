@@ -1,0 +1,21 @@
+{% extends 'quiz_base.html' %}
+{% block content %}
+<pre>
+    {{question}}
+</pre>
+<form action="" method="post">
+    {% csrf_token %}
+    <input type="hidden" name="question" value="{{question_obj.id}}">
+    <label for="question">Write code here</label>
+    <br>
+    <Textarea name="user_code" cols="100" rows="20">{% if user_code %}{{user_code}}{% else %}{{question_obj.solution_snippet}}{% endif %}
+    </Textarea>
+    <button type="submit" name='submit' value='run'>Run</button>
+    <button type="submit" name='submit' value='submit'>Submit</button>
+</form>
+<div class="container">
+    <pre>{{error}}</pre>
+    <p>{{score|default:"0"}} test cases passed</p>
+</div>
+
+{% endblock content %}

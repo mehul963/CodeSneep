@@ -1,0 +1,227 @@
+[
+    {
+        "model": "quiz.choice",
+        "pk": 1,
+        "fields": {
+            "question": 1,
+            "text": "Paris",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "quiz.choice",
+        "pk": 2,
+        "fields": {
+            "question": 1,
+            "text": "London",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "quiz.choice",
+        "pk": 3,
+        "fields": {
+            "question": 1,
+            "text": "Berlin",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "quiz.choice",
+        "pk": 4,
+        "fields": {
+            "question": 1,
+            "text": "Madrid",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "quiz.choice",
+        "pk": 5,
+        "fields": {
+            "question": 1,
+            "text": "Paris",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "quiz.choice",
+        "pk": 6,
+        "fields": {
+            "question": 2,
+            "text": "William Shakespeare",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "quiz.choice",
+        "pk": 7,
+        "fields": {
+            "question": 2,
+            "text": "Charles Dickens",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "quiz.choice",
+        "pk": 8,
+        "fields": {
+            "question": 2,
+            "text": "Mark Twain",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "quiz.choice",
+        "pk": 9,
+        "fields": {
+            "question": 2,
+            "text": "Jane Austen",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "quiz.choice",
+        "pk": 10,
+        "fields": {
+            "question": 2,
+            "text": "J.K. Rowling",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "quiz.choice",
+        "pk": 11,
+        "fields": {
+            "question": 3,
+            "text": "Mars",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "quiz.choice",
+        "pk": 12,
+        "fields": {
+            "question": 3,
+            "text": "Venus",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "quiz.choice",
+        "pk": 13,
+        "fields": {
+            "question": 3,
+            "text": "Jupiter",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "quiz.choice",
+        "pk": 14,
+        "fields": {
+            "question": 3,
+            "text": "Mercury",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "quiz.choice",
+        "pk": 15,
+        "fields": {
+            "question": 3,
+            "text": "Saturn",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "quiz.choice",
+        "pk": 16,
+        "fields": {
+            "question": 4,
+            "text": "H2O",
+            "is_correct": true
+        }
+    },
+    {
+        "model": "quiz.choice",
+        "pk": 17,
+        "fields": {
+            "question": 4,
+            "text": "CO2",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "quiz.choice",
+        "pk": 18,
+        "fields": {
+            "question": 4,
+            "text": "CH4",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "quiz.choice",
+        "pk": 19,
+        "fields": {
+            "question": 4,
+            "text": "O2",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "quiz.choice",
+        "pk": 20,
+        "fields": {
+            "question": 4,
+            "text": "N2",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "quiz.choice",
+        "pk": 21,
+        "fields": {
+            "question": 5,
+            "text": "Leonardo da Vinci",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "quiz.choice",
+        "pk": 22,
+        "fields": {
+            "question": 5,
+            "text": "Pablo Picasso",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "quiz.choice",
+        "pk": 23,
+        "fields": {
+            "question": 5,
+            "text": "Vincent van Gogh",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "quiz.choice",
+        "pk": 24,
+        "fields": {
+            "question": 5,
+            "text": "Michelangelo",
+            "is_correct": false
+        }
+    },
+    {
+        "model": "quiz.choice",
+        "pk": 25,
+        "fields": {
+            "question": 5,
+            "text": "Leonardo da Vinci",
+            "is_correct": true
+        }
+    }
+]

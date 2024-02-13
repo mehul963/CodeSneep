@@ -1,0 +1,23 @@
+{% extends 'quiz_base.html' %}
+{% block content %}
+    <form action="" method="post">
+        {% csrf_token %}
+        {{questions}}
+        <ol>
+            {% for quizattempt in quizattempts %}
+            {% with question=quizattempt.question %}
+                <li class="question ">
+                    <pre>{{question.text}}</pre>
+                    {% for choice in question.choices.all %}
+                        <div>
+                            <input type="radio" name="question:{{question.pk}}" value="{{choice.pk}}" id="choises_for{{choice.pk}}">
+                            <label for="choises_for{{choice.pk}}"> {{choice.text}}</label>
+                        </div>
+                    {% endfor %}
+                </li>
+            {% endwith %}
+        {% endfor %}
+        </ol>
+        <button class="btn">Submit</button>
+    </form>
+{% endblock content %}

@@ -1,0 +1,15 @@
+Two sum problem
+ you have give an integer array of length n
+ and integer k
+
+ you need to find two element from array that sum is equal to k
+
+ example 1:
+ arr = [4,8,5,2,6]
+ k = 9
+ answer = [4,5]
+ 
+ example 2:
+ arr = [6,2,7,8,3]
+ k = 5
+ answer = [2,3]

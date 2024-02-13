@@ -1,0 +1,11 @@
+{% extends 'quiz_base.html' %}
+{% block content %}
+
+<h1>User Information</h1>
+<div class=" flex flex-col">
+    <span><b>Username:</b> {{ request.user.username }}</span>
+    <span><b>Name:</b> {{ request.user.first_name }} {{ request.user.last_name }}</span>
+    <span><b>Email:</b> {{ request.user.email|default:"No Email" }}</span>
+    <span><b>Score:</b> {{ request.user.score|default:"0" }}</span>
+</div>
+{% endblock content %}
